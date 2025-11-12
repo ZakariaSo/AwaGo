@@ -5,6 +5,7 @@ export default function Layout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index"  options={{animation:"slide_from_right"}}/>   
       <Stack.Screen name="home"  options={{animation:"slide_from_bottom"}}/>  
+      <Stack.Screen name="BookingScreen"/>
       <Stack.Screen name="login" />
     </Stack>
   );

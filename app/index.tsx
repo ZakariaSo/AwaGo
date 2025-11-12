@@ -13,7 +13,7 @@ export default function SplashScreen() {
       useNativeDriver: true,
     }).start(() => {
       setTimeout(() => {
-        router.replace("/login");
+        router.replace("");
       }, 2000);
     });
   }, []);
